@@ -1,0 +1,28 @@
+{
+  "name": "sprint.recursion-returns",
+  "version": "1.0.0",
+  "description": "Recursion returns with a vengeance, and in node!",
+  "scripts": {
+    "test": "mocha spec && yarn lint",
+    "lint": "eslint --fix --ext .js src spec",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-problems": "^0.1.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.10.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.1.1",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "sinon": "^5.0.2",
+    "sinon-chai": "^3.0.0"
+  },
+  "author": "Phuong Tran <>",
+  "license": "MIT"
+}
