@@ -6,6 +6,10 @@ const sinonChai = require("sinon-chai");
 
 const { getElementsByClassName } = require("../src/getElementsByClassName");
 
+// The tests for getElementsByClassName.js is quite complex so we have kept it for you. Please read through the test specs to get a sense of how those particular tests are created. Can you explain it out-loud?
+// Complete src/getElementByClassName.js
+// The Document object in JavaScript is amazing. It does a lot of beautiful things for you, like getting all the elements on a page by their classname. But we don't like easy! So we'll make you write your own.
+
 chai.use(sinonChai);
 const { expect } = chai;
 
@@ -19,7 +23,7 @@ const htmlStrings = [
   '<div class="a"><p class="targetClassName asdf"><b>aasdfasdfsdfasdf</b></p></div><div class="classname"><span class="span test"></span></div>',
 ];
 
-describe("getElementsByClassName", () => {
+describe.only("getElementsByClassName", () => {
   beforeEach(() => {
     $("body").addClass("targetClassName");
   });
