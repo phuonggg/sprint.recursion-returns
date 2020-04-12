@@ -23,7 +23,7 @@ const htmlStrings = [
   '<div class="a"><p class="targetClassName asdf"><b>aasdfasdfsdfasdf</b></p></div><div class="classname"><span class="span test"></span></div>',
 ];
 
-describe.only("getElementsByClassName", () => {
+describe("getElementsByClassName", () => {
   beforeEach(() => {
     $("body").addClass("targetClassName");
   });
